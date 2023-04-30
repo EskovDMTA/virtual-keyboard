@@ -73,8 +73,14 @@ body {
 }
 
 .btn__left, .btn__right, .btn__up, .btn__down {
-  height: 25px;
+  height: 28px;
   width: 60px;
+}
+.wrapper__btn__up__down{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .btn__arrow {

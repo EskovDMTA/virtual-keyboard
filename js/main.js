@@ -5,7 +5,7 @@ document.addEventListener("keydown", (event)=>{
 
 const buttons = document.querySelectorAll(".btn")
 const display = document.querySelector(".text-area")
-const deleteBtn = document.querySelector(".delete-btn")
+const deleteBtn = document.querySelector(".delete__btn")
 const backgroundColor = document.querySelector(".wrapper")
 const colorChanger = document.querySelector(".colors_input")
 let displayChars = []
