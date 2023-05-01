@@ -1,93 +1,90 @@
 const keyboardLayout = [
   [
     {
-      code: 'Backquote', case: false, lang: { en: '`', ru: '~' }, properties: 'regular',
+      code: 'Backquote', case: false, lang: { en: '`', ru: '~' }, properties: 'normal',
     },
     {
-      code: 'Digit1', case: false, lang: { en: '1', ru: '1' }, properties: 'regular',
+      code: 'Digit1', case: false, lang: { en: '1', ru: '1' }, properties: 'normal',
     },
     {
-      code: 'Digit2', case: false, lang: { en: '2', ru: '2' }, properties: 'regular',
+      code: 'Digit2', case: false, lang: { en: '2', ru: '2' }, properties: 'normal',
     },
     {
-      code: 'Digit3', case: false, lang: { en: '3', ru: '3' }, properties: 'regular',
+      code: 'Digit3', case: false, lang: { en: '3', ru: '3' }, properties: 'normal',
     },
     {
-      code: 'Digit4', case: false, lang: { en: '4', ru: '4' }, properties: 'regular',
+      code: 'Digit4', case: false, lang: { en: '4', ru: '4' }, properties: 'normal',
     },
     {
-      code: 'Digit5', case: false, lang: { en: '5', ru: '5' }, properties: 'regular',
+      code: 'Digit5', case: false, lang: { en: '5', ru: '5' }, properties: 'normal',
     },
     {
-      code: 'Digit6', case: false, lang: { en: '6', ru: '6' }, properties: 'regular',
+      code: 'Digit6', case: false, lang: { en: '6', ru: '6' }, properties: 'normal',
     },
     {
-      code: 'Digit7', case: false, lang: { en: '7', ru: '7' }, properties: 'regular',
+      code: 'Digit7', case: false, lang: { en: '7', ru: '7' }, properties: 'normal',
     },
     {
-      code: 'Digit8', case: false, lang: { en: '8', ru: '8' }, properties: 'regular',
+      code: 'Digit8', case: false, lang: { en: '8', ru: '8' }, properties: 'normal',
     },
     {
-      code: 'Digit9', case: false, lang: { en: '9', ru: '9' }, properties: 'regular',
+      code: 'Digit9', case: false, lang: { en: '9', ru: '9' }, properties: 'normal',
     },
     {
-      code: 'Digit0', case: false, lang: { en: '0', ru: '0' }, properties: 'regular',
+      code: 'Digit0', case: false, lang: { en: '0', ru: '0' }, properties: 'normal',
     },
     {
-      code: 'Minus', case: false, lang: { en: '-', ru: '-' }, properties: 'regular',
+      code: 'Minus', case: false, lang: { en: '-', ru: '-' }, properties: 'normal',
     },
     {
-      code: 'Equal', case: false, lang: { en: '=', ru: '=' }, properties: 'regular',
+      code: 'Equal', case: false, lang: { en: '=', ru: '=' }, properties: 'normal',
     },
     {
       code: 'Backspace', case: true, lang: { en: 'delete', ru: 'delete' }, properties: 'btn__delete',
     },
-    // {
-    //   code: 'Delete', case: true, lang: { en: 'Del ⌦', ru: 'Del ⌦' }, properties: 'wide',
-    // },
   ],
   [
     {
       code: 'Tab', case: true, lang: { en: 'tab', ru: 'tab' }, properties: 'btn__tab',
     },
     {
-      code: 'KeyQ', case: false, lang: { en: 'q', ru: 'й' }, properties: 'regular',
+      code: 'KeyQ', case: false, lang: { en: 'q', ru: 'й' }, properties: 'normal',
     },
     {
-      code: 'KeyW', case: false, lang: { en: 'w', ru: 'ц' }, properties: 'regular',
+      code: 'KeyW', case: false, lang: { en: 'w', ru: 'ц' }, properties: 'normal',
     },
     {
-      code: 'KeyE', case: false, lang: { en: 'e', ru: 'у' }, properties: 'regular',
+      code: 'KeyE', case: false, lang: { en: 'e', ru: 'у' }, properties: 'normal',
     },
     {
-      code: 'KeyR', case: false, lang: { en: 'r', ru: 'к' }, properties: 'regular',
+      code: 'KeyR', case: false, lang: { en: 'r', ru: 'к' }, properties: 'normal',
     },
     {
-      code: 'KeyT', case: false, lang: { en: 't', ru: 'е' }, properties: 'regular',
+      code: 'KeyT', case: false, lang: { en: 't', ru: 'е' }, properties: 'normal',
     },
     {
-      code: 'KeyY', case: false, lang: { en: 'y', ru: 'н' }, properties: 'regular',
+      code: 'KeyY', case: false, lang: { en: 'y', ru: 'н' }, properties: 'normal',
     },
     {
-      code: 'KeyU', case: false, lang: { en: 'u', ru: 'г' }, properties: 'regular',
+      code: 'KeyU', case: false, lang: { en: 'u', ru: 'г' }, properties: 'normal',
     },
     {
-      code: 'KeyI', case: false, lang: { en: 'i', ru: 'ш' }, properties: 'regular',
+      code: 'KeyI', case: false, lang: { en: 'i', ru: 'ш' }, properties: 'normal',
     },
     {
-      code: 'KeyO', case: false, lang: { en: 'o', ru: 'щ' }, properties: 'regular',
+      code: 'KeyO', case: false, lang: { en: 'o', ru: 'щ' }, properties: 'normal',
     },
     {
-      code: 'KeyP', case: false, lang: { en: 'p', ru: 'з' }, properties: 'regular',
+      code: 'KeyP', case: false, lang: { en: 'p', ru: 'з' }, properties: 'normal',
     },
     {
-      code: 'BracketLeft', case: false, lang: { en: '[', ru: 'х' }, properties: 'regular',
+      code: 'BracketLeft', case: false, lang: { en: '[', ru: 'х' }, properties: 'normal',
     },
     {
-      code: 'BracketRight', case: false, lang: { en: ']', ru: 'ъ' }, properties: 'regular',
+      code: 'BracketRight', case: false, lang: { en: ']', ru: 'ъ' }, properties: 'normal',
     },
     {
-      code: 'Backslash', case: false, lang: { en: '\\', ru: 'ё' }, properties: 'regular',
+      code: 'Backslash', case: false, lang: { en: '\\', ru: 'ё' }, properties: 'normal',
     },
   ],
   [
@@ -95,37 +92,37 @@ const keyboardLayout = [
       code: 'CapsLock', case: true, lang: { en: 'caps lock', ru: 'caps lock' }, properties: 'btn__caps-lock',
     },
     {
-      code: 'KeyA', case: false, lang: { en: 'a', ru: 'ф' }, properties: 'regular',
+      code: 'KeyA', case: false, lang: { en: 'a', ru: 'ф' }, properties: 'normal',
     },
     {
-      code: 'KeyS', case: false, lang: { en: 's', ru: 'ы' }, properties: 'regular',
+      code: 'KeyS', case: false, lang: { en: 's', ru: 'ы' }, properties: 'normal',
     },
     {
-      code: 'KeyD', case: false, lang: { en: 'd', ru: 'в' }, properties: 'regular',
+      code: 'KeyD', case: false, lang: { en: 'd', ru: 'в' }, properties: 'normal',
     },
     {
-      code: 'KeyF', case: false, lang: { en: 'f', ru: 'а' }, properties: 'regular',
+      code: 'KeyF', case: false, lang: { en: 'f', ru: 'а' }, properties: 'normal',
     },
     {
-      code: 'KeyG', case: false, lang: { en: 'g', ru: 'п' }, properties: 'regular',
+      code: 'KeyG', case: false, lang: { en: 'g', ru: 'п' }, properties: 'normal',
     },
     {
-      code: 'KeyH', case: false, lang: { en: 'h', ru: 'р' }, properties: 'regular',
+      code: 'KeyH', case: false, lang: { en: 'h', ru: 'р' }, properties: 'normal',
     },
     {
-      code: 'KeyJ', case: false, lang: { en: 'j', ru: 'о' }, properties: 'regular',
+      code: 'KeyJ', case: false, lang: { en: 'j', ru: 'о' }, properties: 'normal',
     },
     {
-      code: 'KeyK', case: false, lang: { en: 'k', ru: 'л' }, properties: 'regular',
+      code: 'KeyK', case: false, lang: { en: 'k', ru: 'л' }, properties: 'normal',
     },
     {
-      code: 'KeyL', case: false, lang: { en: 'l', ru: 'д' }, properties: 'regular',
+      code: 'KeyL', case: false, lang: { en: 'l', ru: 'д' }, properties: 'normal',
     },
     {
-      code: 'Semicolon', case: false, lang: { en: ';', ru: 'ж' }, properties: 'regular',
+      code: 'Semicolon', case: false, lang: { en: ';', ru: 'ж' }, properties: 'normal',
     },
     {
-      code: 'Quote', case: false, lang: { en: '\'', ru: 'э' }, properties: 'regular',
+      code: 'Quote', case: false, lang: { en: '\'', ru: 'э' }, properties: 'normal',
     },
     {
       code: 'Enter', case: true, lang: { en: 'return', ru: 'return' }, properties: 'btn__return',
@@ -136,34 +133,34 @@ const keyboardLayout = [
       code: 'ShiftLeft', case: true, lang: { en: 'shift', ru: 'shift' }, properties: 'btn__lshift',
     },
     {
-      code: 'KeyZ', case: false, lang: { en: 'z', ru: 'я' }, properties: 'regular',
+      code: 'KeyZ', case: false, lang: { en: 'z', ru: 'я' }, properties: 'normal',
     },
     {
-      code: 'KeyX', case: false, lang: { en: 'x', ru: 'ч' }, properties: 'regular',
+      code: 'KeyX', case: false, lang: { en: 'x', ru: 'ч' }, properties: 'normal',
     },
     {
-      code: 'KeyC', case: false, lang: { en: 'c', ru: 'с' }, properties: 'regular',
+      code: 'KeyC', case: false, lang: { en: 'c', ru: 'с' }, properties: 'normal',
     },
     {
-      code: 'KeyV', case: false, lang: { en: 'v', ru: 'м' }, properties: 'regular',
+      code: 'KeyV', case: false, lang: { en: 'v', ru: 'м' }, properties: 'normal',
     },
     {
-      code: 'KeyB', case: false, lang: { en: 'b', ru: 'и' }, properties: 'regular',
+      code: 'KeyB', case: false, lang: { en: 'b', ru: 'и' }, properties: 'normal',
     },
     {
-      code: 'KeyN', case: false, lang: { en: 'n', ru: 'т' }, properties: 'regular',
+      code: 'KeyN', case: false, lang: { en: 'n', ru: 'т' }, properties: 'normal',
     },
     {
-      code: 'KeyM', case: false, lang: { en: 'm', ru: 'ь' }, properties: 'regular',
+      code: 'KeyM', case: false, lang: { en: 'm', ru: 'ь' }, properties: 'normal',
     },
     {
-      code: 'Comma', case: false, lang: { en: ',', ru: 'б' }, properties: 'regular',
+      code: 'Comma', case: false, lang: { en: ',', ru: 'б' }, properties: 'normal',
     },
     {
-      code: 'Period', case: false, lang: { en: '.', ru: 'ю' }, properties: 'regular',
+      code: 'Period', case: false, lang: { en: '.', ru: 'ю' }, properties: 'normal',
     },
     {
-      code: 'Slash', case: false, lang: { en: '/', ru: '/' }, properties: 'regular',
+      code: 'Slash', case: false, lang: { en: '/', ru: '/' }, properties: 'normal',
     },
     {
       code: 'ShiftRight', case: true, lang: { en: 'shift', ru: 'shift' }, properties: 'btn__rshift',
@@ -190,7 +187,7 @@ const keyboardLayout = [
       code: 'MetaRight', case: true, lang: { en: 'command', ru: 'command' }, properties: 'btn__rcommand',
     },
     {
-      code: 'AltRight', case: true, lang: { en: 'alt', ru: 'alt' }, properties: 'btn__roption',
+      code: 'AltRight', case: true, lang: { en: 'option', ru: 'option' }, properties: 'btn__roption',
     },
     {
       code: 'ArrowLeft', case: true, lang: { en: '◄', ru: '◄' }, properties: 'btn__left',
@@ -199,7 +196,7 @@ const keyboardLayout = [
       code: 'ArrowUp', case: true, lang: { en: '▲', ru: '▲' }, properties: 'btn__up',
     },
     {
-      code: 'ArrowDown', case: true, lang: { en: '▼;', ru: '▼' }, properties: 'btn__down',
+      code: 'ArrowDown', case: true, lang: { en: '▼', ru: '▼' }, properties: 'btn__down',
     },
     {
       code: 'ArrowRight', case: true, lang: { en: '►', ru: '►' }, properties: 'btn__right',
@@ -208,7 +205,7 @@ const keyboardLayout = [
 ];
 
 const keyboardKeys = {};
-let btnArrow = document.createElement("div")
+
 const keyboardFragment = document.createDocumentFragment();
 
 keyboardLayout.forEach((line) => {
