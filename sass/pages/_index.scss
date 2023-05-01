@@ -1,0 +1,145 @@
+.keyboard__title {
+  color: #2a2a2a;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.display {
+  max-width: 1000px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 50px;
+  outline-color: #575757;
+  font-size: 26px;
+  background-color: #ffffff;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  background-color: rgba(82, 80, 80, 0.73);
+  overflow: hidden;
+  position: relative;
+}
+
+.keyboard__row {
+  display: flex;
+}
+
+.btn {
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  transition: .2s;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  color: #2a2a2a;
+}
+
+.btn.btn__active {
+  background-color: #484646;
+  color: white;
+  border-radius: 15px;
+  transition: all .2s;
+}
+
+.btn.btn__remove {
+  animation: keys_active 2s linear;
+}
+
+@keyframes keys_active {
+  0% {
+    background-color: #484646;
+    color: white;
+  }
+  100% {
+    background-color: #fff;
+    color: #2a2a2a;
+  }
+
+}
+.btn__delete {
+  width: 80px;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.btn__tab {
+  width: 80px;
+  justify-content: start;
+  padding-left: 10px;
+}
+
+.btn__caps-lock {
+  width: 100px;
+  justify-content: start;
+  padding-left: 10px;
+}
+
+.btn__return {
+  width: 100px;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.btn__lshift, .btn__rshift {
+  width: 128px;
+  justify-content: start;
+  padding-left: 10px;
+}
+
+.btn__lcommand, .btn__rcommand {
+  width: 80px;
+}
+
+.btn__space {
+  max-width: 323px;
+  width: 100%;
+}
+
+.btn__left, .btn__right, .btn__up, .btn__down {
+  height: 30px;
+  width: 60px;
+  position: absolute;
+}
+.btn__up{
+  right: 66px;
+}
+.btn__left{
+  bottom: 0px;
+  right: 133px;
+}
+.btn__right{
+  bottom: 0px;
+  right: 0px;
+}
+.btn__down{
+  bottom: 0px;
+  right: 66px;
+}
+
+.wrapper__btn__up__down {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.btn__arrow {
+  display: flex;
+  align-items: flex-end;
+}
+
+.upCase {
+  text-transform: capitalize;
+}
