@@ -336,13 +336,14 @@ body {
   outline-color: #a17171;
   font-size: 26px;
   background-color: #ffffff;
-  transition: 0.5s;
+  text-justify: auto;
+  padding: 10px;
 }
 
 .wrapper {
   max-width: 1000px;
   width: 100%;
-  background-color: #e1dfdf;
+  background-color: rgba(82, 80, 80, 0.73);
   overflow: hidden;
   position: relative;
 }
@@ -371,7 +372,7 @@ body {
 }
 
 .btn.btn__remove {
-  animation: keys_active 0.3s linear;
+  animation: keys_active 2s linear;
 }
 
 @keyframes keys_active {
