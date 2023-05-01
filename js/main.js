@@ -159,7 +159,6 @@ buttons.forEach((btn) => {
 });
 document.addEventListener('keydown', (event) => {
   event.preventDefault();
-  console.log(event.code);
   const btn = document.getElementById(event.code);
   if (event.code === 'Tab') {
     btn.classList.add('btn__active');

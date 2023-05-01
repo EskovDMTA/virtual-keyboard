@@ -307,14 +307,6 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: "SF-Pro-Display";
-  src: url("../../assets/fonts/San Francisco Pro Display/SF-Pro-Display-Regular.otf");
-}
-body {
-  font-family: SF-Pro-Display;
-}
-
 .keyboard__title {
   color: #2a2a2a;
 }
