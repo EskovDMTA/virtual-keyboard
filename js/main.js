@@ -1,7 +1,5 @@
-// eslint-disable-next-line no-use-before-define
 import { keyboardFragment, keyboardKeys } from './keyboard.js';
 
-// let variable
 let lang = 'ru';
 let caps = false;
 
@@ -34,7 +32,6 @@ function renderKeyboard(keyboardKeys) {
 
   aboutKeyboard.textContent = "Keyboard designed on macos. Press 'ctrl+command' to change language";
 
-  //   Create dom element
   keyboard.appendChild(keyboardFragment);
   wrapper.appendChild(keyboard);
 
@@ -47,7 +44,6 @@ function renderKeyboard(keyboardKeys) {
 
 renderKeyboard();
 
-// variables
 const buttons = document.querySelectorAll('.btn');
 
 const keyboard = document.querySelector('.keyboard');
@@ -260,21 +256,7 @@ function deleteBTN(event) {
   display.value = displayValue.join('');
 }
 
-function capslockBTN(event) {
-}
-
 function shiftBTN(event) {
-}
-
-function controlBTN(event) {
-
-}
-
-function optionBTN(event) {
-  event.preventDefault();
-}
-
-function commandBTN(event) {
 }
 
 function returnBTN() {
@@ -288,8 +270,6 @@ function changeLanguage(lang, shift = false) {
       e.textContent = keyboardKeys[e.id][lang];
     },
   );
-
-  // switchCaps(shift);
 }
 
 function capsSwitch(registry) {
